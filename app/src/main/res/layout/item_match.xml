@@ -1,0 +1,36 @@
+<!-- Dummy Match Item Layout -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/myprofilepic"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_marginStart="8dp"
+        android:text="John Doe"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/student_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_text"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_marginStart="8dp"
+        android:text="Student ID: 12345"
+        android:textSize="14sp"
+        android:textColor="#808080" />
+
+</RelativeLayout>

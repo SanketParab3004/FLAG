@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FLAG</string>
+
+    <string-array name="interest_options">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="gender_options">
+        <item>Men</item>
+        <item>Women</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="age_range_options">
+        <item>18-24</item>
+        <item>25-34</item>
+        <item>35-44</item>
+    </string-array>
+
+    <string-array name="campus_options">
+        <item>Barrie</item>
+        <item>Midland</item>
+        <item>Muskoka</item>
+        <item>Orangeville</item>
+        <item>Orillia</item>
+        <item>Owen Sound</item>
+        <item>South Georgian Bay</item>
+    </string-array>
+
+</resources>
